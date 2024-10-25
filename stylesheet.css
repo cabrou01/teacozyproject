@@ -1,0 +1,180 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+html {
+    width: 100%;
+}
+
+/* Header Styling */
+header{
+    width: 100%;
+    max-height: 200px;
+    border-bottom: solid 1px seashell;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    opacity: 1;
+    
+}
+.header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header img {
+    height: 50px;
+}
+
+nav li {
+    display: inline;
+    text-decoration: underline;
+    flex: 1 1 15px;
+    flex-wrap: wrap;
+}
+
+
+/* Banner Styling*/
+.bannerbackground {
+    position: absolute;
+    display: block;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 1;
+}
+
+.banner {
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+    height: 700px;
+    width: 1200px;
+    opacity: 1;
+    margin-bottom: 50px;
+
+}
+
+#mission{
+    max-width: 1200px;
+    font-size: 50px;
+    padding-bottom: 0px;;
+}
+
+#missionstatement {
+    max-width: 1200px;
+    font-size: 20px;
+}
+/* Body Styling */
+
+body {
+    width: 1500px;
+}
+
+/* Tea of the Month Styling */
+
+.teacontainer {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.teas {
+    width: 300px;
+    height: 250px;
+    flex-grow: 1 1 300px;
+    opacity: 1;
+    border: solid 5px white;
+    border-radius: 10px;
+}
+
+.teas h4 {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.teas img {
+    width: 300px;
+    height: 200px;
+    opacity: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+body h2 {
+    font-size: 50px;
+}
+
+body h4 {
+    font-size: 25px;
+}
+
+/* Location Styling */
+
+.locationbackground {
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: 1200px;
+    padding: 0px;
+    margin: 100px 150px 100px;
+    object-fit: cover;
+    z-index: 0;
+    opacity: 1;
+    background-color: rgba(0,0,0,0);
+}
+
+#locationtitle {
+    margin-top: 120px;
+    margin-bottom: 15px;
+    padding: 0px;
+    background-color: rgba(0,0,0,0);
+
+}
+
+#locationcontainer {
+    height: 400px;
+    width: 1200px;
+    display: inline-flex;
+    padding: 0px;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,0);
+}
+
+#location {
+    width: 300px;
+    height: 300px;
+    border: solid 1px white;
+    background-color: rgba(0,0,0,1);
+    opacity: 1;
+}
+
+.footertitle {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+footer h5 {
+    text-align: left;
+    padding: 0px;
+    margin-left: 20px;
+}
